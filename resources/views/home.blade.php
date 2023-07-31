@@ -7,7 +7,7 @@
     <link href="{{ asset('css/defalt_style.css') }}" rel="stylesheet" />
     <title>Jeunes pelerin d'Arès</title>
     <link
-      href="{{ asset('images/icon.png') }}"
+      href="{{ asset('images/icon_header.png') }}"
       rel="icon"
       type="img/png"
       alt="Ma Image"
@@ -40,7 +40,7 @@
         <div class="marge-logo">
           <img
             class="logo-img"
-            src="{{ asset('images/logos/logo_pelerin.png') }}"
+            src="{{ asset('images/logo_pelerin.png') }}"
           />
         </div>
         <div>
@@ -59,7 +59,7 @@
       <div class="center">
         <!--vidéo-->
         <video
-          src="{{ asset('video/Happyland.mp4') }}"
+          src="{{ asset('Happyland.mp4') }}"
           controls
           width="1000"
           autoplay
@@ -163,7 +163,7 @@
       <ul>
         <li class="carte">
           <div class="carte">
-            <img src="{{ asset('images/portfolio/blog.jpg') }}" alt="" />
+            <img src="{{ asset('images/blog.jpg') }}" alt="" />
             <div class="">
               <h4>Le blog</h4>
               <p><a class="" href="michelpotayblog.net">Page d'accueil</a></p>
