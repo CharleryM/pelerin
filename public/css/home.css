@@ -1,0 +1,126 @@
+/*par défaut*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+/* images et logos */
+.marge-logo {
+    margin: 25px;
+    margin-left: 35px;
+}
+.logo-img {
+    width: 300px;
+}
+.list-carte{
+    list-style-type: none;
+}
+/* .carte{} */
+.img-carte{
+    width: 350px;
+}
+
+
+/* polices d'écritures */
+body {
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.manuscrit-h1 {
+    font-family: Script MT, Brush Script Std, cursive;
+    font-size: 125px;
+    margin: 0;
+    color: rgb(218, 229, 234);
+}
+.manuscrit-h2 {
+    font-family: Script MT, Brush Script Std, cursive;
+    font-size: 80PX;
+    margin: 0;
+    color: rgb(218, 229, 234);
+}
+.manuscrit-p {
+    font-family: Script MT, Brush Script Std, cursive;
+    font-size: larger;
+}
+
+
+
+/* marges */
+
+.cut-section {
+    margin-bottom: 100px;
+}
+
+.marge-p {
+    margin: 5px;
+}
+
+
+
+/* position */
+.space-text-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/michel.jpg);
+    background-size: cover;
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+}
+li.carte{
+    background-color: #fff;
+}
+a.link{
+    color: #6c757d!important;
+}
+
+.local {
+    display: flex;
+    background-color: aqua;
+}
+
+.info {
+    display: flex;
+}
