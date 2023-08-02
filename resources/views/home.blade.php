@@ -34,7 +34,7 @@
         </div>
 </nav> -->
 
-    <!-- Acceul -->
+    <!-- header -->
     <header class="cut-section">
       <div class="header">
         <div class="marge-logo">
@@ -45,10 +45,10 @@
         </div>
         <div>
           <div class="space-text-intro">
-            <h2 class="manuscrit-h2 marge-top-s marge-bot-s">
+            <h2 class="style-h2 marge-top-s marge-bot-s">
               les jeunes pèlerins vous saluent
             </h2>
-            <h1 class="manuscrit-h1">faites le bien, le mal disparaitra!</h1>
+            <h1 class="style-h1">faites le bien, le mal disparaitra!</h1>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@
           autoplay
         ></video>
         <!-- texte -->
-        <div class="manuscrit-p center">
+        <div class="style-p center">
           <p class="marge-p">
             Chez les pèlerins d'Arés, nous croyons que nous pouvons vivre sans
             hierarchie. Nous nous sommes organisés en petits groupes afin de se
@@ -92,86 +92,57 @@
 
     <!-- Les Lien -->
     <section class="links">
-      <!-- <div class="carte">
-                    <img class="" src="{{ asset('images/portfolio/blog.jpg') }}" alt="">
-            <div class="">
-                <h4>Le blog</h4>
-                <a class="" href="michelpotayblog.net">Page d'accueil</a>
-            </div>
-        </div>
+      <!-- grille -->
+      <div class="grille">
         <div class="carte">
-            <a>
-                <img class="" src="{{ asset('images/portfolio/msp.jpg') }}" alt="">
-            </a>
-            <div class="">
-                <h4>Qui sont les pèlerins d'Arès ?</h4>
-                <a class=""
-                    href="http://michelpotay.info/Revelation_Ares_introduction.html?fbclid=IwAR3xevW1uIBDom4yRrrQG-Gf_NU8cfy3ZUusqMrqoIGqVARx94m4byES04Q">Michel
-                    Potay.info</a>
-            </div>
-        </div>
-        <div class="carte">
-            <a>
-                <div class="">
-                    <div class="">
-
-                    </div>
-                </div>
-                <img class="" src="{{ asset('images/portfolio/blog.jpg') }}" alt="">
-            </a>
-            <div class="">
-                <h4>Révelation d'Arès en ligne</h4>
-                <a class=""
-                    href="http://michelpotay.info/RevelationdAres2009-menu.html?fbclid=IwAR35wM74rPFX1tTj8R1JMUmW3ZAfE03WiWrxVqVxQgYieZjbiYeXQf_PHIY">Lecture</a>
-            </div>
-        </div>
-        <div class="carte">
-            <a>
-
-                <img class="" src="{{ asset('images/portfolio/msp.jpg') }}" alt="">
-            </a>
-            <div class="">
-                <h4>Acheter la Révélation d'Arès</h4>
-                <a class=""
-                    href="https://www.adira.net/fr/commandes/?fbclid=IwAR1nP1Sq7_oLMHHfY0E8LofyZJ6laXCqSDzLiwGtmpMPO-moAVTZlSicjjI">Adira.net</a>
-            </div>
-        </div>
-        <div class="carte">
-            <a>
-
-                <img class="" src="{{ asset('images/portfolio/blog.jpg') }}" alt="">
-            </a>
-            <div class="">
-                <h4>Le pèlerinage</h4>
-                <a class=""
-                    href="http://michelpotay.info/Revelation_Ares_pelerinage.html?fbclid=IwAR0GMRsUDXnRLgwrYBjk7YBt9-Xj0RA7gjcl7ajXe-eGx2QlUrjMGsRyFyM">Plus
-                    de rensegnement</a>
-            </div>
-        </div>
-        <div class="carte">
-            <a>
-
-                <img class="" src="{{ asset('images/portfolio/msp.jpg') }}" alt="">
-            </a>
-            <div class="">
-                <h4>Le local de l'Eau Bleu</h4>
-                <a class=""
-                    href="http://revelation-ares.paris/a-paris/l-eau-bleue-paris/?fbclid=IwAR29aXnxKu-pkzxWC0LG3lcy16d1IVWOURptdCO2NDsqah7IjkYoA2D-YOI">On
-                    vous y attend &#128515;</a>
-            </div>
-        </div> -->
-      <ul>
-        <li class="carte">
-          <div class="carte">
-            <img src="{{ asset('images/blog.jpg') }}" alt="" />
-            <div class="">
-              <h4>Le blog</h4>
-              <p><a class="" href="michelpotayblog.net">Page d'accueil</a></p>
-            </div>
+          <img class="img-carte" src="{{ asset('images/blog.jpg') }}" alt="" />
+          <div class="center ">
+            <h3 class="style-h3">Le blog</h3>
+            <p><a class="style-p marge-p" href="michelpotayblog.net">Page d'accueil</a></p>
           </div>
-        </li>
-      </ul>
-    </section>
+        </div>
+
+        <div class="carte">
+          <img class="img-carte" src="{{ asset('images/msp.jpg') }}" alt="" />
+          <div class="center ">
+            <h3 class="style-h3">Qui sont les pèlerins d'Arès ?</h3>
+            <p><a class="style-p marge-p" href="http://michelpotay.info/Revelation_Ares_introduction.html?fbclid=IwAR3xevW1uIBDom4yRrrQG-Gf_NU8cfy3ZUusqMrqoIGqVARx94m4byES04Q">Michel
+                    Potay.info</a></p>
+          </div>
+        </div>
+
+        <div class="carte">
+          <img class="img-carte" src="{{ asset('images/blog.jpg') }}" alt="" />
+          <div class="center ">
+            <h3 class="style-h3">Révelation d'Arès en ligne</h3>
+            <p><a class="style-p marge-p" href="http://michelpotay.info/RevelationdAres2009-menu.html?fbclid=IwAR35wM74rPFX1tTj8R1JMUmW3ZAfE03WiWrxVqVxQgYieZjbiYeXQf_PHIY">Lecture</a></p>
+          </div>
+        </div>
+
+        <div class="carte">
+          <img class="img-carte" src="{{ asset('images/blog.jpg') }}" alt="" />
+          <div class="center ">
+            <h3 class="style-h3">Le blog</h3>
+            <p><a class="style-p marge-p" href="michelpotayblog.net">Page d'accueil</a></p>
+          </div>
+        </div>
+
+        <div class="carte">
+          <img class="img-carte" src="{{ asset('images/blog.jpg') }}" alt="" />
+          <div class="center ">
+            <h3 class="style-h3">Le blog</h3>
+            <p><a class="style-p marge-p" href="michelpotayblog.net">Page d'accueil</a></p>
+          </div>
+        </div>
+        <div class="carte">
+          <img class="img-carte" src="{{ asset('images/blog.jpg') }}" alt="" />
+          <div class="center ">
+            <h3 class="style-h3">Le blog</h3>
+            <p><a class="style-p marge-p" href="michelpotayblog.net">Page d'accueil</a></p>
+          </div>
+        </div>  
+      </div>
+  </section>
 
     <!-- Local -->
     <section class="local" id="about">
