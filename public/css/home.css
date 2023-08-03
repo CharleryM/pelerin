@@ -24,6 +24,8 @@ video {
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
+    width: 35em;
+    margin-bottom: 2em;
 }
 
 
@@ -71,7 +73,7 @@ body {
 
 /* séparation de section */
 .cut-section {
-    margin-bottom: 100px;
+    margin-bottom: 3em;
 }
 
 
@@ -111,7 +113,8 @@ header {
 
 .local {
     display: flex;
-    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info {
@@ -141,3 +144,5 @@ header {
 .img-carte {
     width: 350px;
 }
+
+
