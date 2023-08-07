@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="{{ asset('css/home.css') }}" rel="stylesheet" />
-    <link href="{{ asset('css/defalt_style.css') }}" rel="stylesheet" />
     <title>Jeunes pelerin d'Arès</title>
     <link
       href="{{ asset('images/icon_header.png') }}"
