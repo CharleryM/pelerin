@@ -71,8 +71,7 @@
             partager le local et de vivre des experiences differentes.
           </p>
           <p class="marge-p">
-            Notre groupe des jeunes sera présent toutes les 5 semaines comme
-            suit :
+            Notre groupe des jeunes sera présent toutes les 5 semaines. Nos prochaines dates sont :
           </p>
           <p class="marge-p">Du lundi 23 au samedi 28 septembre</p>
           <p class="marge-p">Du lundi 28 octobre au samedi 2 novembre</p>
