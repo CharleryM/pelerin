@@ -11,19 +11,19 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('intranets', function (Blueprint $table) {
+        Schema::create('dates', function (Blueprint $table) {
             $table->id();
             $table->date('date_debut');
             $table->date('date_fin');
             $table->timestamps();
         });
-    }    
+    }
 
     /**
      * Reverse the migrations.
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('dates');
     }
 };

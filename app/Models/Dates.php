@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Intranet extends Model
+class Dates extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
+      protected $fillable = [
         'date_debut',
         'date_fin',
     ];
@@ -19,4 +19,3 @@ class Intranet extends Model
         'date_fin',
     ];
 }
-

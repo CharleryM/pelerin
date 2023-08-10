@@ -13,13 +13,20 @@
     />
 </head>
 <body>
-    <form action="/intranet" method="get">
+    <!-- <form action="/intranet" method="get">
         <label for="presantation_g">présantation du groupe :</label>
         <input type="text" id="presantation_g" name="presantation_g"><br><br>
         <label for="date" >début :</label>
         <input type="date" id="date_debut" name="date_debut"><br><br>
         <label for="date" >début :</label>
         <input type="date" id="date_fin" name="date_fin"><br><br>
+    </form> -->
+    <h1>test formulaire</h1>
+    <form action="get">
+        <label for="text">mets ton texte</label>
+        <input type="text" name='text' id='text'>
     </form>
+    <script>console.log('test console')</script>
+        
 </body>
 </html>

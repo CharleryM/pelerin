@@ -23,13 +23,8 @@ Route::get('home', function(){
 });
 
 Route::get('intranet', function(){
-    return view('intra');
+    return view('intranet');
 });
-
-Route::get('testIntra', function(){
-    return view('testIntra');
-});
-
 
 Route::get('/testIntra', [IntranetController::class, 'index'])->name('home');
 Route::post('/testIntra', [IntranetController::class, 'update'])->name('update.dates');
