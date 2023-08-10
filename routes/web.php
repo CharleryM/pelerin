@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IntranetController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,5 +23,8 @@ Route::get('home', function(){
 });
 
 Route::get('intranet', function(){
-    return view('intra');
+    return view('intranet');
 });
+
+Route::get('/testIntra', [IntranetController::class, 'index'])->name('home');
+Route::post('/testIntra', [IntranetController::class, 'update'])->name('update.dates');
