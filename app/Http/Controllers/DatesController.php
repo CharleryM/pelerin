@@ -12,7 +12,7 @@ class DatesController extends Controller
      */
     public function index()
     {
-        //
+        return view('resultat');
     }
 
     /**
