@@ -26,7 +26,6 @@
         <label for="text">mets ton texte</label>
         <input type="text" name='text' id='text'>
     </form>
-    <script>console.log('test console')</script>
         
 </body>
 </html>

@@ -26,5 +26,9 @@ Route::get('intranet', function(){
     return view('intranet');
 });
 
+Route::get('resultat', function(){
+    return view('resultat');
+});
+
 Route::get('/testIntra', [IntranetController::class, 'index'])->name('home');
 Route::post('/testIntra', [IntranetController::class, 'update'])->name('update.dates');
