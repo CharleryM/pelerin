@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IntranetController;
+use App\Http\Controllers\UserController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -30,5 +32,13 @@ Route::get('resultat', function(){
     return view('resultat');
 });
 
-Route::get('/testIntra', [IntranetController::class, 'index'])->name('home');
+Route::get('nouveau', function () {
+    return view('newUser');
+});
+
+Route::get('/testIntra', [UserController::class, 'index']);
 Route::post('/testIntra', [IntranetController::class, 'update'])->name('update.dates');
+
+Route::post('/users', [UserController::class, 'createUser']);   
+Route::put('/users/{id}/update-password', [UserController::class, 'updatePassword']);
+Route::delete('/testIntra/{id}', [UserController::class, 'deleteUser']);
