@@ -41,4 +41,4 @@ Route::post('/testIntra', [IntranetController::class, 'update'])->name('update.d
 
 Route::post('/users', [UserController::class, 'createUser']);   
 Route::put('/users/{id}/update-password', [UserController::class, 'updatePassword']);
-Route::delete('/testIntra/{id}', [UserController::class, 'deleteUser']);
+Route::delete('/testIntra/delete/{id}', [UserController::class, 'deleteUser']);

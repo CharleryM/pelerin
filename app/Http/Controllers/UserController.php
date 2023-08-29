@@ -13,7 +13,8 @@ class UserController extends Controller
     {
         $users = User::all();
 
-        return response()->json(['users' => $users]);    }
+        return response()->json(['users' => $users]);
+    }
 
     public function createUser(Request $request)
     {
@@ -47,10 +48,8 @@ class UserController extends Controller
 
     public function deleteUser($id)
     {
-        $user = User::findOrFail($id);
-
+        $user = User::find($id);
         $user->delete();
-
         return response()->json(['message' => 'User deleted successfully']);
     }
 
