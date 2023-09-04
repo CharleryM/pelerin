@@ -14,24 +14,6 @@
   </head>
 
   <body>
-    <!-- Navigation -->
-    <!-- <nav class="navbar">
-            Menu le bandau
-        <img class="logo-img" href="#page-top" src="{{ asset('images/logos/logo_pelerin.png') }}">
-        <div class="" id="navbarResponsive">
-            <ul class="">
-                <li class="">
-                    <a class="" href="#services">Présentation</a>
-                </li>
-                <li class="">
-                    <a class="" href="#portfolio"> Les liens</a>
-                </li>
-                <li class="">
-                    <a class=" " href="#about"> contact </a>
-                </li>
-            </ul>
-        </div>
-</nav> -->
 
     <!-- header -->
     <header class="cut-section">
