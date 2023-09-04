@@ -13,7 +13,7 @@ class UserController extends Controller
     {
         $users = User::all();
 
-        return response()->json(['users' => $users]);
+         return response()->json(['users' => $users], 200, [], JSON_PRETTY_PRINT);
     }
 
     public function createUser(Request $request)
@@ -28,8 +28,10 @@ class UserController extends Controller
 
         $user = User::create($data);
 
-        return response()->json(['user' => $user], 201);
+        return response()->json(['user' => $user]);
     }
+
+
 
     public function updatePassword(Request $request, $id)
     {

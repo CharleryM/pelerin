@@ -36,7 +36,7 @@ Route::get('nouveau', function () {
     return view('newUser');
 });
 
-Route::get('/testIntra', [UserController::class, 'index']);
+Route::get('/list', [UserController::class, 'index']);
 Route::post('/testIntra', [IntranetController::class, 'update'])->name('update.dates');
 
 Route::post('/users', [UserController::class, 'createUser']);   

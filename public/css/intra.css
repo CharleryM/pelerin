@@ -1,0 +1,71 @@
+/* style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 5em;
+}
+.form{
+    margin-left: 15em;
+    margin-right: 0;
+}
+form {
+    display: grid;
+    column-gap: 1em;
+    row-gap: 1em;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 2em;
+
+}
+
+label, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="file"], textarea {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

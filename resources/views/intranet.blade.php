@@ -1,31 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jeunes pelerins - intranet</title>
-    <link rel="stylesheet" href="{{asset('css/intra.css')}}">
-    <link
-      href="{{ asset('images/icon_header.png') }}"
-      rel="icon"
-      type="img/png"
-      alt="Ma Image"
-    />
+
+        <link href="{{ asset('css/intra.css') }}" rel="stylesheet" />
+
+    <title>Page de CMS</title>
 </head>
 <body>
-    <!-- <form action="/intranet" method="get">
-        <label for="presantation_g">présantation du groupe :</label>
-        <input type="text" id="presantation_g" name="presantation_g"><br><br>
-        <label for="date" >début :</label>
-        <input type="date" id="date_debut" name="date_debut"><br><br>
-        <label for="date" >début :</label>
-        <input type="date" id="date_fin" name="date_fin"><br><br>
-    </form> -->
-    <h1>test formulaire</h1>
-    <form action="get">
-        <label for="text">mets ton texte</label>
-        <input type="text" name='text' id='text'>
+    <h1>Page de CMS pour Uploader une Vidéo</h1>
+
+    <div class='form'>
+    <form action="/cms/upload-video" method="post" enctype="multipart/form-data">
+        @csrf
+
+        <div class='champs'>
+            <label for="video">Sélectionnez la vidéo :</label>
+            <input type="file" id="video" name="video" accept="video/*" required>
+        </div>
+        <br><br>
+
+        <div class='champs'>
+            <label for="presentation">Texte de présentation :</label>
+            <textarea id="presentation" name="presentation" rows="4" required></textarea>
+        </div>
+        <br><br>
+
+        <div class='champs'>
+            <label for="opening_dates">Dates d'ouverture :</label>
+            <textarea id="opening_dates" name="opening_dates" rows="2" required></textarea>
+        </div>
+        <br><br>
+
+        <div class='champs'>
+            <label for="closing_text">Texte de fin :</label>
+            <textarea id="closing_text" name="closing_text" rows="4" required></textarea>
+        </div>
+        <br><br>
+    </div>
+
+        <button type="submit">Uploader la vidéo</button>
     </form>
-        
 </body>
 </html>
